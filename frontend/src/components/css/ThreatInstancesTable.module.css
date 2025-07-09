@@ -1,0 +1,105 @@
+
+.sub_heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 2rem 0 1rem;
+  color: #1f2937;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.form input[type="text"],
+.form select {
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.threats_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.table_header {
+  background-color: #f3f4f6;
+  text-align: left;
+  padding: 0.75rem;
+  font-weight: 600;
+  border-bottom: 2px solid #e5e7eb;
+  font-size: 0.95rem;
+}
+
+.table_row {
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.table_row:hover {
+  background-color: #f9fafb;
+}
+
+.table_cell {
+  padding: 0.75rem;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 0.9rem;
+  max-width: 200px;
+  word-wrap: break-word;
+}
+
+.expanded_row {
+  background-color: #f9fafb;
+  padding: 1rem;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.expanded_row div {
+  margin-bottom: 0.5rem;
+}
+
+.paginationBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.paginationBar label {
+  font-size: 1rem;
+}
+
+.paginationBar input {
+  width: 60px;
+  padding: 0.3rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.logout_button {
+  display: block;
+  margin: 2rem auto;
+  padding: 0.6rem 1.2rem;
+  background-color: #ef4444;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.logout_button:hover {
+  background-color: #dc2626;
+}

@@ -59,6 +59,7 @@ npm install
 ```
 
 3. Create .env file and add two variables 
+
     a. DATABASE_URL = your local postgreSQL database url
     b. SECRET_KEY = any string
 
